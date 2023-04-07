@@ -65,6 +65,8 @@ the bash commands below are now all under root_path
 Pip
 =====
 ```
-pip show | grep numpy
+pip show numpy
+# or
+pip list | grep numpy
 ```
 show package numpy version
