@@ -14,6 +14,17 @@ When unzip a very large file(like 30+GB), use this to continue extracting in cas
 
 -x: dest path
 
+```
+zipinfo file_path
+```
+show details of the zipfile and total number of zip sub files
+
+find
+```
+find . -type f | wc -l
+```
+show total number of sub files
+
 Wget
 =====
 ```
