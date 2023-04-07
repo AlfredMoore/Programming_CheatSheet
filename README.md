@@ -70,3 +70,10 @@ pip show numpy
 pip list | grep numpy
 ```
 show package numpy version
+
+Python
+=====
+```
+list(set(A)-set(B))
+```
+unduplicate list A - unduplicate list B
