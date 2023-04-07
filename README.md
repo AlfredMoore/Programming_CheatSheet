@@ -62,3 +62,9 @@ the bash commands below are now all under root_path
 !git clone
 ```
 
+Pip
+=====
+```
+pip show | grep numpy
+```
+show package numpy version
