@@ -4,7 +4,7 @@ Learning skills from daily projects_Unscheduled update
 Unzip
 ======
 ```
-unzip -n src_path -x dest_path
+unzip -n src_path -d dest_path
 ```
 -n: extract not existing.
 
@@ -15,10 +15,19 @@ When unzip a very large file(like 30+GB), use this to continue extracting in cas
 Wget
 =====
 ```
-!wget -O dataset/fma_metadata.zip -nc https://os.unil.cloud.switch.ch/fma/fma_metadata.zip 
+wget -O dataset/fma_metadata.zip -nc https://os.unil.cloud.switch.ch/fma/fma_metadata.zip 
 ```
 -O: directed dest, including file name
 -nc: not covering existing files
+
+Du
+=====
+```
+du -h --max-depth=1 ~/download
+```
+show the size of first level foulders
+
+A good way to show google drive folder size in google colab
 
 Goole Colab
 =====
