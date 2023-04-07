@@ -31,6 +31,8 @@ show the size of first level foulders
 
 A good way to show google drive folder size in google colab
 
+https://askubuntu.com/questions/1224/how-do-i-determine-the-total-size-of-a-directory-folder-from-the-command-line
+
 Goole Colab
 =====
 * link to google drive
