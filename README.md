@@ -77,3 +77,10 @@ Python
 list(set(A)-set(B))
 ```
 unduplicate list A - unduplicate list B
+
+```
+tensorflow.Sequence
+np.save(... , allow_tickle=True)
+np.load(... , allow_tickle=True)
+```
+to handle the error of "allow_tickle=False" or "raise pickle.UnpicklingError" in tesorflow.Sequence
