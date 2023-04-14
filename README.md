@@ -84,3 +84,11 @@ np.save(... , allow_tickle=True)
 np.load(... , allow_tickle=True)
 ```
 to handle the error of "allow_tickle=False" or "raise pickle.UnpicklingError" in tesorflow.Sequence
+
+Python Virtual Env
+=====
+```
+source virtual_env_path/bin/activate
+deactivate
+```
+activate & deactivate
