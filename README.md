@@ -106,6 +106,11 @@ p.starmap(func, zip(arg_list, repeat(single_arg)))
 ```
 multithread pool executes multi-arguments function 
 
+```
+isinstance(s, str)
+```
+check if s is a string or int etc. 
+
 Python Virtual Env
 =====
 ```
