@@ -45,6 +45,19 @@ A good way to show google drive folder size in google colab
 
 https://askubuntu.com/questions/1224/how-do-i-determine-the-total-size-of-a-directory-folder-from-the-command-line
 
+nohup
+=====
+```
+nohup [command] &
+```
+run command in the background
+
+```
+ps -ef | grep py_downloader.py
+kill <PID>
+```
+stop that command
+
 Goole Colab
 =====
 * link to google drive
@@ -84,6 +97,14 @@ np.save(... , allow_tickle=True)
 np.load(... , allow_tickle=True)
 ```
 to handle the error of "allow_tickle=False" or "raise pickle.UnpicklingError" in tesorflow.Sequence
+
+```
+from multiprocessing import Pool
+from itertools import repeat
+p = Pool(8)
+p.starmap(func, zip(arg_list, repeat(single_arg)))
+```
+multithread pool executes multi-arguments function 
 
 Python Virtual Env
 =====
