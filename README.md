@@ -118,3 +118,14 @@ source virtual_env_path/bin/activate
 deactivate
 ```
 activate & deactivate
+
+Conda
+=====
+```
+conda info
+conda info -e
+conda create -n
+```
+show env information
+show all envs
+create a virtual env
