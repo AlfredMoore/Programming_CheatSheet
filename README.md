@@ -127,5 +127,7 @@ conda info -e
 conda create -n
 ```
 show env information
+
 show all envs
+
 create a virtual env
