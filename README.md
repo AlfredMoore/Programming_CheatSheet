@@ -124,10 +124,15 @@ Conda
 ```
 conda info
 conda info -e
-conda create -n
+conda create -n <env name> python=x.x
+conda remove -n <env name>
 ```
 show env information
 
 show all envs
 
 create a virtual env
+```
+conda install --yes --file requirements.txt
+```
+conda install packages in requirement.txt
