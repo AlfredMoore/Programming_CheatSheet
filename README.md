@@ -119,6 +119,10 @@ deactivate
 ```
 activate & deactivate
 
+VScode import unresolved, but can be interpreted.
+
+<https://github.com/microsoft/pylance-release/blob/main/TROUBLESHOOTING.md#unresolved-import-warnings>
+
 Conda
 =====
 ```
