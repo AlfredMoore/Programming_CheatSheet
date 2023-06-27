@@ -130,6 +130,7 @@ conda info
 conda info -e
 conda create -n <env name> python=x.x
 conda remove -n <env name>
+conda remove --name ENV_NAME --all
 ```
 show env information
 
