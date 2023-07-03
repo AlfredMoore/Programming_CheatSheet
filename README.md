@@ -150,3 +150,11 @@ create a virtual env
 conda install --yes --file requirements.txt
 ```
 conda install packages in requirement.txt
+
+SSH Connection
+=====
+```
+ssh-keygen -m PEM -t rsa -b 4096
+```
+
+When lose connection in a public network, the reason might be the "wireless mode". Try to modify the "wireless mode" to 'IEEE 802.11 b/g'
