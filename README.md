@@ -111,13 +111,13 @@ isinstance(s, str)
 ```
 check if s is a string or int etc. 
 
-relatively import
+Relatively import
 -----
 ```
-from . import module_name # same director
-from .package_name import module_name # same director
-from .. import module name # upper director
-from ..package_name import module_name # upper director
+from . import module_name                 # same director
+from .package_name import module_name     # same director
+from .. import module name                # upper director
+from ..package_name import module_name    # upper director
 ```
 
 Python Virtual Env
