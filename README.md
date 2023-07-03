@@ -3,8 +3,10 @@ Learning skills from daily projects
 
 Unscheduled update
 
+Ubuntu
+=====
 Unzip
-======
+-----
 ```
 unzip -n src_path -d dest_path
 ```
@@ -20,14 +22,14 @@ zipinfo file_path
 show details of the zipfile and total number of zip sub files
 
 find
-=====
+-----
 ```
 find . -type f | wc -l
 ```
 show total number of sub files
 
 Wget
-=====
+-----
 ```
 wget -O dataset/fma_metadata.zip -nc https://os.unil.cloud.switch.ch/fma/fma_metadata.zip 
 ```
@@ -35,7 +37,7 @@ wget -O dataset/fma_metadata.zip -nc https://os.unil.cloud.switch.ch/fma/fma_met
 -nc: not covering existing files
 
 Du
-=====
+-----
 ```
 du -h --max-depth=1 ~/download
 ```
@@ -46,7 +48,7 @@ A good way to show google drive folder size in google colab
 https://askubuntu.com/questions/1224/how-do-i-determine-the-total-size-of-a-directory-folder-from-the-command-line
 
 nohup
-=====
+-----
 ```
 nohup [command] &
 ```
@@ -57,6 +59,16 @@ ps -ef | grep py_downloader.py
 kill <PID>
 ```
 stop that command
+
+System Version
+=====
+```
+cat /etc/issue
+cat /etc/os-release
+hostnamectl
+uname -a
+cat /etc/debian_version
+```
 
 Goole Colab
 =====
