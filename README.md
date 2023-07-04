@@ -170,3 +170,22 @@ ssh-keygen -m PEM -t rsa -b 4096
 ```
 
 When lose connection in a public network, the reason might be the "wireless mode". Try to modify the "wireless mode" to 'IEEE 802.11 b/g'
+
+Change Source
+=====
+```
+# apt source (Raspberry Debian10 Buster)
+# /etc/apt/sources.list
+deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
+deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
+# /etc/apt/sources.list.d/raspi.list
+deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
+
+# Pip source
+# mk ''
+# [global]
+# index-url = https://mirrors.aliyun.com/pypi/simple/
+# 
+# [install]
+# trusted-host=mirrors.aliyun.com
+```
