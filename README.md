@@ -96,6 +96,11 @@ pip list | grep numpy
 ```
 show package numpy version
 
+```
+pip config list
+```
+show pip source
+
 Python
 =====
 ```
