@@ -101,6 +101,18 @@ pip config list
 ```
 show pip source
 
+Change Source
+-----
+```
+# Pip source
+# mk ''
+# [global]
+# index-url = https://mirrors.aliyun.com/pypi/simple/
+# 
+# [install]
+# trusted-host=mirrors.aliyun.com
+```
+
 Python
 =====
 ```
