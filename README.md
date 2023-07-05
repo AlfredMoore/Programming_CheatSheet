@@ -104,6 +104,8 @@ show pip source
 Change Source
 -----
 ```
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
 # Pip source
 # mk ''
 # [global]
