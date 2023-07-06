@@ -168,7 +168,9 @@ Conda
 ```
 conda info
 conda info -e
+# sudo chmod 600 PATH
 conda create -n <env name> python=x.x
+conda create --prefix=/var/www/myblog/felixvenv python=3.7.1
 conda remove -n <env name>
 conda remove --name ENV_NAME --all
 ```
