@@ -142,6 +142,14 @@ isinstance(s, str)
 ```
 check if s is a string or int etc. 
 
+*args and **kargs
+-----
+```
+input *args, and arg will be a tuple
+input **kargs, which should be （karg_1=1, karg_2=2...), and karg will be a dictionary {karg_1: 1, karg_2: 2...}
+```
+
+
 Relatively import
 -----
 ```
@@ -149,6 +157,15 @@ from . import module_name                 # same director
 from .package_name import module_name     # same director
 from .. import module name                # upper director
 from ..package_name import module_name    # upper director
+```
+
+Super()
+-----
+```
+class A (B):
+  def __init___ ():
+    super().__init()__
+    super().func_of_parent()
 ```
 
 Python Virtual Env
