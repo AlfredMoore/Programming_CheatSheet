@@ -160,6 +160,7 @@ print("{} {}".format("hello", "world")) # No position assignment, deault
 'hello world'
 print("{1} {0} {1}".format("hello", "world") ) # assigned position
 'world hello world'
+print(f"mean_reward: {mean_reward:.2f} +/- {std_reward:.2f}")
 ```
 
 Relatively import
