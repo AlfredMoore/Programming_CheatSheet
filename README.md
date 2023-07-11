@@ -149,6 +149,18 @@ input *args, and arg will be a tuple
 input **kargs, which should be （karg_1=1, karg_2=2...), and karg will be a dictionary {karg_1: 1, karg_2: 2...}
 ```
 
+print
+-----
+```
+>>> print('I want to learn %s. How about you?' %'Python')
+I want to learn Python. How about you?
+>>> print('10 - 23 is %d, not %u' %(-13, 13) )
+10 - 23 is -13, not 13
+print("{} {}".format("hello", "world")) # No position assignment, deault
+'hello world'
+print("{1} {0} {1}".format("hello", "world") ) # assigned position
+'world hello world'
+```
 
 Relatively import
 -----
