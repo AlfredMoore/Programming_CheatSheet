@@ -184,10 +184,19 @@ class A (B):
 Python x Bash
 -----
 ```
+# os.system()
 import os
 command = "ls"
 a = os.system(command)
 # a = 0 if it runs well
+
+# save IP address
+# os.popen()  execute the cmd and get the output
+import os
+cmd = 'hostname -I'
+result = os.popen(cmd)
+ip_addr = result.readlines()[0].replace(' ','').replace('\n','')
+print(ip_addr)
 ```
 
 Python Virtual Env
