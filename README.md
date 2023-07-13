@@ -181,6 +181,15 @@ class A (B):
     super().func_of_parent()
 ```
 
+Python x Bash
+-----
+```
+import os
+command = "ls"
+a = os.system(command)
+# a = 0 if it runs well
+```
+
 Python Virtual Env
 =====
 ```
