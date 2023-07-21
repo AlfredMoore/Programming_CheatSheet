@@ -142,6 +142,10 @@ isinstance(s, str)
 ```
 check if s is a string or int etc. 
 
+```
+def function(param_a: str, param_b: np.array) -> dict
+```
+
 *args and **kargs
 -----
 ```
