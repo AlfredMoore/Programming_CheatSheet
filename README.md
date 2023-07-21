@@ -202,6 +202,13 @@ result = os.popen(cmd)
 ip_addr = result.readlines()[0].replace(' ','').replace('\n','')
 print(ip_addr)
 ```
+numpy
+-----
+```
+np.array.tile(2,2)
+# A -> [A A]
+#      [A A]
+```
 
 Python Virtual Env
 =====
