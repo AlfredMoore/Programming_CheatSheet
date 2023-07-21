@@ -205,7 +205,7 @@ print(ip_addr)
 numpy
 -----
 ```
-np.array.tile(2,2)
+np.tile( A,(2,2) )
 # A -> [A A]
 #      [A A]
 ```
