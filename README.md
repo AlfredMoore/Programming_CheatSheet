@@ -143,6 +143,11 @@ isinstance(s, str)
 check if s is a string or int etc. 
 
 ```
+from typing import List, Tuple, Dict
+```
+indicate data type
+
+```
 def function(param_a: str, param_b: np.array) -> dict
 ```
 
