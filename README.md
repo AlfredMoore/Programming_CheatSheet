@@ -28,6 +28,12 @@ find . -type f | wc -l
 ```
 show total number of sub files
 
+Copy
+-----
+```
+cp /path/to/source /path/to/dest/directory/
+```
+
 Wget
 -----
 ```
