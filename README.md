@@ -33,6 +33,9 @@ Copy
 ```
 cp /path/to/source /path/to/dest/directory/
 ```
+copy file
+
+
 
 Wget
 -----
