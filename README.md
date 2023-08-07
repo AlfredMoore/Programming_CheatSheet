@@ -235,6 +235,11 @@ np.tile( A,(2,2) )
 #      [A A]
 ```
 
+```python
+np.concatenate((A,B),axis=0)
+```
+connect Matrix A and B
+
 Python Virtual Env
 =====
 ```shell
