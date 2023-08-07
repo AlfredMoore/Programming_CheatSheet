@@ -199,6 +199,17 @@ class A (B):
     super().func_of_parent()
 ```
 
+tqdm()
+-----
+```
+# Template
+with tqdm(total=args.max_train_steps, desc='PPO Trainning', leave=True, ncols=80, unit='steps', unit_scale=True, colour="red") as pbar:
+  Iteration
+  pbar.update(n)
+```
+Where, desc('str'): prefix description of the bar, mininterval/maxinterval(float): min/max updating time, miniters(int/float): min mode, ascii(bool/str): True(ASCII) False(unicode), ncols(int): bar width, nrows(int):  , dynamic_ncols(bool): auto mode, smoothing(float): smooth bar updation, bar_format(str): to customize, position(int): bar position, colour(str): bar color
+
+
 Python x Bash
 -----
 ```
