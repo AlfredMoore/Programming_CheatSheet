@@ -3,11 +3,11 @@ Learning skills from daily projects
 
 Unscheduled update
 
-Ubuntu
+Ubuntu bash
 =====
 Unzip
 -----
-```
+```bash
 unzip -n src_path -d dest_path
 ```
 -n: extract not existing.
@@ -23,14 +23,14 @@ show details of the zipfile and total number of zip sub files
 
 find
 -----
-```
+```bash
 find . -type f | wc -l
 ```
 show total number of sub files
 
 Copy
 -----
-```
+```bash
 cp /path/to/source /path/to/dest/directory/
 ```
 copy file
@@ -39,7 +39,7 @@ copy file
 
 Wget
 -----
-```
+```bash
 wget -O dataset/fma_metadata.zip -nc https://os.unil.cloud.switch.ch/fma/fma_metadata.zip 
 ```
 -O: directed dest, including file name
@@ -47,7 +47,7 @@ wget -O dataset/fma_metadata.zip -nc https://os.unil.cloud.switch.ch/fma/fma_met
 
 Du
 -----
-```
+```bash
 du -h --max-depth=1 ~/download
 ```
 show the size of first level foulders
@@ -58,7 +58,7 @@ https://askubuntu.com/questions/1224/how-do-i-determine-the-total-size-of-a-dire
 
 nohup
 -----
-```
+```bash
 nohup [command] &
 ```
 run command in the background
@@ -71,7 +71,7 @@ stop that command
 
 System Version
 =====
-```
+```bash
 cat /etc/issue
 cat /etc/os-release
 hostnamectl
@@ -82,7 +82,7 @@ cat /etc/debian_version
 Goole Colab
 =====
 * link to google drive
-```
+```bash
 from google.colab import drive
 import os
 root_path = "/content/drive/MyDrive/dest_path"
@@ -98,7 +98,7 @@ the bash commands below are now all under root_path
 
 Pip
 =====
-```
+```bash
 pip show numpy
 # or
 pip list | grep numpy
@@ -112,7 +112,7 @@ show pip source
 
 Change Source
 -----
-```
+```bash
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 # Pip source
@@ -126,19 +126,19 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 Python
 =====
-```
+```python
 list(set(A)-set(B))
 ```
 unduplicate list A - unduplicate list B
 
-```
+```python
 tensorflow.Sequence
 np.save(... , allow_tickle=True)
 np.load(... , allow_tickle=True)
 ```
 to handle the error of "allow_tickle=False" or "raise pickle.UnpicklingError" in tesorflow.Sequence
 
-```
+```python
 from multiprocessing import Pool
 from itertools import repeat
 p = Pool(8)
@@ -146,30 +146,30 @@ p.starmap(func, zip(arg_list, repeat(single_arg)))
 ```
 multithread pool executes multi-arguments function 
 
-```
+```python
 isinstance(s, str)
 ```
 check if s is a string or int etc. 
 
-```
+```python
 from typing import List, Tuple, Dict
 ```
 indicate data type
 
-```
+```python
 def function(param_a: str, param_b: np.array) -> dict
 ```
 
 *args and **kargs
 -----
-```
+```python
 input *args, and arg will be a tuple
 input **kargs, which should be （karg_1=1, karg_2=2...), and karg will be a dictionary {karg_1: 1, karg_2: 2...}
 ```
 
 print
 -----
-```
+```python
 >>> print('I want to learn %s. How about you?' %'Python')
 I want to learn Python. How about you?
 >>> print('10 - 23 is %d, not %u' %(-13, 13) )
@@ -183,7 +183,7 @@ print(f"mean_reward: {mean_reward:.2f} +/- {std_reward:.2f}")
 
 Relatively import
 -----
-```
+```python
 from . import module_name                 # same director
 from .package_name import module_name     # same director
 from .. import module name                # upper director
@@ -192,7 +192,7 @@ from ..package_name import module_name    # upper director
 
 Super()
 -----
-```
+```python
 class A (B):
   def __init___ ():
     super().__init()__
@@ -201,7 +201,7 @@ class A (B):
 
 tqdm()
 -----
-```
+```python
 # Template
 with tqdm(total=args.max_train_steps, desc='PPO Trainning', leave=True, ncols=80, unit='steps', unit_scale=True, colour="red") as pbar:
   Iteration
@@ -212,7 +212,7 @@ Where, desc('str'): prefix description of the bar, mininterval/maxinterval(float
 
 Python x Bash
 -----
-```
+```python
 # os.system()
 import os
 command = "ls"
@@ -229,7 +229,7 @@ print(ip_addr)
 ```
 numpy
 -----
-```
+```python
 np.tile( A,(2,2) )
 # A -> [A A]
 #      [A A]
@@ -237,7 +237,7 @@ np.tile( A,(2,2) )
 
 Python Virtual Env
 =====
-```
+```shell
 source virtual_env_path/bin/activate
 deactivate
 ```
@@ -249,7 +249,7 @@ VScode import unresolved, but can be interpreted.
 
 Conda
 =====
-```
+```shell
 conda info
 conda info -e
 # sudo chmod 600 PATH
@@ -263,14 +263,14 @@ show env information
 show all envs
 
 create a virtual env
-```
+```shell
 conda install --yes --file requirements.txt
 ```
 conda install packages in requirement.txt
 
 SSH Connection
 =====
-```
+```bash
 ssh-keygen -m PEM -t rsa -b 4096
 ```
 
@@ -278,7 +278,7 @@ When lose connection in a public network, the reason might be the "wireless mode
 
 Change Source
 =====
-```
+```bash
 # apt source (Raspberry Debian10 Buster)
 # /etc/apt/sources.list
 deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
