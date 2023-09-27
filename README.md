@@ -244,6 +244,16 @@ np.concatenate((A,B),axis=0)
 ```
 connect Matrix A and B
 
+matplotlib
+-----
+```
+fig, ax = plt.subplots()    # fig, axs = plt.subplots(m,n) -> axs[m-1,n-1]
+ax.plot(x, A @ theta, label='Estimation', color='red')
+ax.scatter(x, y, label='Observation', color='blue', marker='x')
+ax.legend()
+plt.show()
+```
+
 Python Virtual Env
 =====
 ```shell
