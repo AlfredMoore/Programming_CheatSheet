@@ -183,6 +183,7 @@ print("{} {}".format("hello", "world")) # No position assignment, deault
 print("{1} {0} {1}".format("hello", "world") ) # assigned position
 'world hello world'
 print(f"mean_reward: {mean_reward:.2f} +/- {std_reward:.2f}")
+print("\033[91mHello World!\033[0m")  # prints "Hello World!" in red color
 ```
 
 Relatively import
