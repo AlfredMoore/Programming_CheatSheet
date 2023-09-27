@@ -180,6 +180,8 @@ I want to learn Python. How about you?
 10 - 23 is -13, not 13
 print("{} {}".format("hello", "world")) # No position assignment, deault
 'hello world'
+txt = "I have {an:.2f} Rupees!"
+print(txt.format(an = 4))
 print("{1} {0} {1}".format("hello", "world") ) # assigned position
 'world hello world'
 print(f"mean_reward: {mean_reward:.2f} +/- {std_reward:.2f}")
