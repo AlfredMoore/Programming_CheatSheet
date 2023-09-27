@@ -20,7 +20,7 @@ When unzip a very large file(like 30+GB), use this to continue extracting in cas
 
 -x: dest path
 
-```
+```bash
 zipinfo file_path
 ```
 show details of the zipfile and total number of zip sub files
@@ -109,7 +109,7 @@ pip list | grep numpy
 ```
 show package numpy version
 
-```
+```bash
 pip config list
 ```
 show pip source
@@ -246,7 +246,7 @@ connect Matrix A and B
 
 matplotlib
 -----
-```
+```python
 fig, ax = plt.subplots()    # fig, axs = plt.subplots(m,n) -> axs[m-1,n-1]
 ax.plot(x, A @ theta, label='Estimation', color='red')
 ax.scatter(x, y, label='Observation', color='blue', marker='x')
