@@ -5,7 +5,8 @@ Unscheduled update
 
 Greek Alphabet
 -----
-
+[relative link](Greek.md)
+[web link]https://github.com/AlfredMoore/Useful_Syntax/blob/main/Greek.md
 
 
 Ubuntu version cheatsheet
