@@ -3,6 +3,11 @@ Learning skills from daily projects
 
 Unscheduled update
 
+Greek Alphabet
+-----
+
+
+
 Ubuntu version cheatsheet
 -----
 | Lunar Lobster: 23 | Jammy Jellyfish 22 | Focal Fossa 20 | Bionic Beaver 18 | Xenial Xerus 16 | Trusty Tahr 14 |
