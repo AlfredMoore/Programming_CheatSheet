@@ -120,6 +120,10 @@ pip config list
 ```
 show pip source
 
+```bash
+pip install -r requirements.txt
+```
+
 Change Source
 -----
 ```bash
