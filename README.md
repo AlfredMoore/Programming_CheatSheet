@@ -285,6 +285,7 @@ conda create -n <env name> python=x.x
 conda create --prefix=/var/www/myblog/felixvenv python=3.7.1
 conda remove -n <env name>
 conda remove --name ENV_NAME --all
+conda update --all
 ```
 show env information
 
