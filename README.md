@@ -306,6 +306,7 @@ When lose connection in a public network, the reason might be the "wireless mode
 
 Change Source
 =====
+Ubuntu
 ```bash
 # apt source (Raspberry Debian10 Buster)
 # /etc/apt/sources.list
@@ -313,7 +314,10 @@ deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free 
 deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib rpi
 # /etc/apt/sources.list.d/raspi.list
 deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
+```
 
+Python in Ubuntu
+```
 # Pip source
 # mk ''
 # [global]
@@ -321,4 +325,16 @@ deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 # 
 # [install]
 # trusted-host=mirrors.aliyun.com
+```
+
+Conda in Win
+```
+# Tsinghua source for China Mainland
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge 
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+# show
+conda config --set show_channel_urls yes
+# reset
+conda config --remove-key channels
 ```
