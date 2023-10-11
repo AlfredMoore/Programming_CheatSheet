@@ -306,8 +306,15 @@ SSH Connection
 ```bash
 ssh-keygen -m PEM -t rsa -b 4096
 ```
-
 When lose connection in a public network, the reason might be the "wireless mode". Try to modify the "wireless mode" to 'IEEE 802.11 b/g'
+```bash
+# configuration
+Host Alias/Abbreviation
+  HostName <xxx.xxx.xxx.xxx>
+  User <username>
+  Port 22
+  IdentityFile <C:\Users\username\.ssh\xxx.pem>
+```
 
 Change Source
 =====
