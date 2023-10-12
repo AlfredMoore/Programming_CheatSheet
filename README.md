@@ -321,6 +321,15 @@ Host Alias/Abbreviation
   Port 22
   IdentityFile <C:\Users\username\.ssh\xxx.pem>
 ```
+Google Cloud Computing
+-----
+```bash
+gcloud auth login
+gcloud init
+gcloud compute ssh --project=PROJECT_ID --zone=ZONE VM_NAME # direct ssh connect via Putty
+gcloud compute config-ssh # generate ssh config in your .ssh folder
+```
+
 
 Change Source
 =====
