@@ -24,7 +24,7 @@ unzip -n src_path -d dest_path
 
 When unzip a very large file(like 30+GB), use this to continue extracting in case of "not enough memory"
 
--x: dest path
+-d: dest path
 
 ```bash
 zipinfo file_path
