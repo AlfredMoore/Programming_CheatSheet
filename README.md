@@ -75,7 +75,8 @@ show free space / total space
 nohup
 -----
 ```bash
-nohup [command] &
+nohup <process> &
+nohup <process> & > logger.log # logging
 ```
 run command in the background
 
