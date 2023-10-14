@@ -1,4 +1,4 @@
-# Useful_Syntax
+# Cheatsheet
 Learning skills from daily projects
 
 Unscheduled update
@@ -211,6 +211,12 @@ from . import module_name                 # same director
 from .package_name import module_name     # same director
 from .. import module name                # upper director
 from ..package_name import module_name    # upper director
+```
+
+Add PYTHONPATH for import
+-----
+```bash
+export PYTHONPATH=/path/to/directory:$PYTHONPATH
 ```
 
 Super()
