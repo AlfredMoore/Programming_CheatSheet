@@ -86,6 +86,15 @@ kill <PID>
 ```
 stop that command
 
+diff
+-----
+```bash
+diff [options] File1 File2
+```
+-c: context
+-u: unified, same as -c except redundant lines
+-y: Short for "side-by-side"
+
 System Version
 =====
 ```bash
