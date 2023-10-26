@@ -287,6 +287,13 @@ tf.where([True, False, False, True],          # Bool
 ...          [100, 200, 300, 400]).numpy()    # values replace False
 # >>> array([  1, 200, 300,   4], dtype=int32)
 ```
+tf.where
+
+```python
+
+```
+EinSum
+[https://rockt.github.io/2018/04/30/einsum]
 
 matplotlib
 -----
