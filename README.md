@@ -279,6 +279,15 @@ np.concatenate((A,B),axis=0)
 ```
 connect Matrix A and B
 
+tensorflow
+-----
+```python
+tf.where([True, False, False, True],          # Bool
+...          [1, 2, 3, 4],                    # values replace True
+...          [100, 200, 300, 400]).numpy()    # values replace False
+# >>> array([  1, 200, 300,   4], dtype=int32)
+```
+
 matplotlib
 -----
 ```python
