@@ -161,12 +161,6 @@ list(set(A)-set(B))
 ```
 unduplicate list A - unduplicate list B
 
-```python
-tensorflow.Sequence
-np.save(... , allow_tickle=True)
-np.load(... , allow_tickle=True)
-```
-to handle the error of "allow_tickle=False" or "raise pickle.UnpicklingError" in tesorflow.Sequence
 
 ```python
 from multiprocessing import Pool
@@ -294,8 +288,18 @@ tf.where([True, False, False, True],          # Bool
 tf.where
 
 ```python
-
+tensorflow.Sequence
+np.save(... , allow_tickle=True)
+np.load(... , allow_tickle=True)
 ```
+to handle the error of "allow_tickle=False" or "raise pickle.UnpicklingError" in tesorflow.Sequence
+
+```python
+tf.broadcast_to(A,B.shape)
+tf.boolean_mask(Tensor, Mask)
+```
+tensor tools
+
 EinSum
 [https://rockt.github.io/2018/04/30/einsum]
 
