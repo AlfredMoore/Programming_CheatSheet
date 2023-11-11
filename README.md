@@ -45,8 +45,6 @@ cp /path/to/source /path/to/dest/directory/
 ```
 copy file
 
-
-
 Wget
 -----
 ```bash
@@ -94,6 +92,27 @@ diff [options] File1 File2
 -c: context
 -u: unified, same as -c except redundant lines
 -y: Short for "side-by-side"
+
+rename
+----
+```bash
+mv oldname newname
+mv olddir newdir
+```
+
+Create file/folder
+-----
+```bash
+cat > filename1.txt
+touch filename2.txt
+```
+
+Delete file/folder
+---
+```bash
+rm filename
+rm -r foldername
+```
 
 System Version
 =====
