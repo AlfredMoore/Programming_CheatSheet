@@ -9,30 +9,30 @@ Greek Letters Table
 -----
 | Capital Letters | Lowercase Letters | Description | Symbol / Character |                                                                 
 | -- | -- | -- | -- |                                                                                                   
-| &Alpha; | &alpha; | Greek capital letter alpha | Α |                                                                   
-| &Beta; | &beta; | Greek capital letter beta | Β |                                                                     
-| &Gamma; | &gamma; | Greek capital letter gamma | Γ |                                                                   
-| &Delta; | &delta; | Greek capital letter delta | Δ |                                                                   
-| &Epsilon; | &epsilon; | Greek capital letter epsilon | Ε |                                                               
-| &Zeta; | &zeta; | Greek capital letter zeta | Ζ |                                                                     
-| &Eta; | &eta; | Greek capital letter eta | Η |                                                                       
-| &Theta; | &theta; | Greek capital letter theta | Θ |                                                                   
-| &Iota; | &iota; | Greek capital letter iota | Ι |                                                                     
-| &Kappa; | &kappa; | Greek capital letter kappa | Κ |                                                                   
-| &Lambda; | &lambda; | Greek capital letter lambda | Λ |                                                                 
-| &Mu; | &mu; | Greek capital letter mu | Μ |                                                                         
-| &Nu; | &nu; | Greek capital letter nu | Ν |                                                                         
-| &Xi; | &xi; | Greek capital letter xi | Ξ |                                                                         
-| &Omicron; | &omicron; | Greek capital letter omicron | Ο |                                                               
-| &Pi; | &pi; | Greek capital letter pi | Π |                                                                         
-| &Rho; | &rho; | Greek capital letter rho | Ρ |                                                                       
-| &Sigma; | &sigma; | Greek capital letter sigma | Σ |                                                                   
-| &Tau; | &tau; | Greek capital letter tau | Τ |                                                                       
-| &Upsilon; | &upsilon; | Greek capital letter upsilon | Υ |                                                               
-| &Phi; | &phi; | Greek capital letter phi | Φ |                                                                       
-| &Chi; | &chi; | Greek capital letter chi | Χ |                                                                       
-| &Psi; | &psi; | Greek capital letter psi | Ψ |                                                                       
-| &Omega; | &omega; | Greek capital letter omega | Ω |                                                                         
+| &Alpha; | &alpha; | alpha | Α |                                                                   
+| &Beta; | &beta; | beta | Β |                                                                     
+| &Gamma; | &gamma; | gamma | Γ |                                                                   
+| &Delta; | &delta; | delta | Δ |                                                                   
+| &Epsilon; | &epsilon; | epsilon | Ε |                                                               
+| &Zeta; | &zeta; | zeta | Ζ |                                                                     
+| &Eta; | &eta; | eta | Η |                                                                       
+| &Theta; | &theta; | theta | Θ |                                                                   
+| &Iota; | &iota; | iota | Ι |                                                                     
+| &Kappa; | &kappa; | kappa | Κ |                                                                   
+| &Lambda; | &lambda; | lambda | Λ |                                                                 
+| &Mu; | &mu; |   mu | Μ |                                                                         
+| &Nu; | &nu; |   nu | Ν |                                                                         
+| &Xi; | &xi; |   xi | Ξ |                                                                         
+| &Omicron; | &omicron; |   omicron | Ο |                                                               
+| &Pi; | &pi; |   pi | Π |                                                                         
+| &Rho; | &rho; |   rho | Ρ |                                                                       
+| &Sigma; | &sigma; |   sigma | Σ |                                                                   
+| &Tau; | &tau; |   tau | Τ |                                                                       
+| &Upsilon; | &upsilon; |   upsilon | Υ |                                                               
+| &Phi; | &phi; |   phi | Φ |                                                                       
+| &Chi; | &chi; |   chi | Χ |                                                                       
+| &Psi; | &psi; |   psi | Ψ |                                                                       
+| &Omega; | &omega; |   omega | Ω |                                                                         
 
 Ubuntu version cheatsheet
 -----
