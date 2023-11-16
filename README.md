@@ -5,8 +5,6 @@ Unscheduled update
 
 Greek Alphabet
 -----
-Greek Letters Table
------
 | Capital Letters | Lowercase Letters | Description | Symbol / Character |                                                                 
 | -- | -- | -- | -- |                                                                                                   
 | &Alpha; | &alpha; | alpha | Α |                                                                   
