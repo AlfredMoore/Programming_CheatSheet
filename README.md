@@ -339,6 +339,7 @@ to handle the error of "allow_tickle=False" or "raise pickle.UnpicklingError" in
 ```python
 tf.broadcast_to(A,B.shape)
 tf.boolean_mask(Tensor, Mask)
+tf.reshape(tensor, shape, name=None)
 ```
 tensor tools
 
