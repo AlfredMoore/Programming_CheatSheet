@@ -128,6 +128,8 @@ Create file/folder
 ```bash
 cat > filename1.txt
 touch filename2.txt
+mkdir folder
+mkdir -p folder0/folder1/folder2
 ```
 
 Delete file/folder
@@ -448,3 +450,14 @@ conda config --set show_channel_urls yes
 # reset
 conda config --remove-key channels
 ```
+
+ROS
+=====
+* Nodes: A node is an executable that uses ROS to communicate with other nodes.
+* Messages: ROS data type used when subscribing or publishing to a topic.
+* Topics: Nodes can publish messages to a topic as well as subscribe to a topic to receive messages.
+* Master: Name service for ROS (i.e. helps nodes find each other)
+* rosout: ROS equivalent of stdout/stderr
+* roscore: Master + rosout + parameter server (parameter server will be introduced later)
+* rosservice: Services are another way that nodes can communicate with each other. Services allow nodes to send a request and receive a response.
+* rosparam: rosparam allows you to store and manipulate data on the ROS Parameter Server.
