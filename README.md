@@ -461,3 +461,137 @@ ROS
 * roscore: Master + rosout + parameter server (parameter server will be introduced later)
 * rosservice: Services are another way that nodes can communicate with each other. Services allow nodes to send a request and receive a response.
 * rosparam: rosparam allows you to store and manipulate data on the ROS Parameter Server.
+* msg: msg files are simple text files that describe the fields of a ROS message. They are used to generate source code for messages in different languages.
+* srv: an srv file describes a service. It is composed of two parts: a request and a response.
+
+Ros Package
+-----
+```bash
+catkin_create_pkg <package_name> [depend1] [depend2] [depend3]
+rospack depends1 beginner_tutorials
+```
+ROS Nodes
+-----
+```bash
+rosnode list
+rosndoe info /rosrun
+```
+Run the node from the package
+```bash
+rosrun [package_name] [node_name] __name:=[customed name]
+```
+
+ROS Topics
+-----
+```bash
+rostopic bw     display bandwidth used by topic
+rostopic echo   print messages to screen
+rostopic hz     display publishing rate of topic    
+rostopic list   print information about active topics
+rostopic pub    publish data to topic
+rostopic type   print topic type
+
+rostopic list   -v, --verbose         list full details about each topic
+
+$ rostopic type /turtle1/command_velocity
+> turtlesim/Velocity
+$ rosmsg show turtlesim/Velocity
+float32 linear
+float32 angular
+
+rostopic pub [topic] [msg_type] [args]
+$ rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- '[2.0, 0.0, 0.0]' '[0.0, 0.0, 1.8]'
+```
+Plot topics
+```bash
+rosrun rqt_plot rqt_plot
+```
+
+ROS Services
+-----
+```bash
+rosservice list         print information about active services
+rosservice call         call the service with the provided args
+rosservice type         print service type
+rosservice find         find services by service type
+rosservice uri          print service ROSRPC uri
+
+rosservice call [service] [args]
+```
+ROSPARAM
+-----
+```bash
+rosparam set            set parameter
+rosparam get            get parameter
+rosparam load           load parameters from file
+rosparam dump           dump parameters to file
+rosparam delete         delete parameter
+rosparam list           list parameter names
+
+rosparam set [param_name]    # rosparam set /turtlesim/background_r 150
+rosparam get [param_name]
+rosparam get /               # get all params
+
+rosparam dump [file_name] [namespace]
+rosparam load [file_name] [namespace]
+```
+
+ROS msg & srv
+-----
+```bash
+roscd rospackage
+mkdir srv msg
+# ceate .msg and .srv like
+Header header
+string child_frame_id
+geometry_msgs/PoseWithCovariance pose
+geometry_msgs/TwistWithCovariance twist
+---
+int64 sum    # response only exists in srv
+
+# check them
+rosmsg show [message type]
+rossrv show <service type>
+```
+Modify package.xml and CMakelists.txt with the link
+[http://wiki.ros.org/ROS/Tutorials/CreatingMsgAndSrv]
+
+ROS scripts
+-----
+```bash
+roscd rospackage
+mkdir scripts
+```
+Add codes and modify CMakelists.txt like [http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29], then test
+```bash
+cd ~/catkin_ws
+catkin_make
+rosrun beginner_tutorials talker.py
+rosrun beginner_tutorials listener.py
+```
+
+ROS Service & Client
+-----
+Follow the link[http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28python%29], then test with 
+```bash
+rosrun beginner_tutorials add_two_ints_server.py
+rosrun beginner_tutorials add_two_ints_client.py 1 3
+```
+
+ROSBAG
+-----
+```bash
+mkdir ~/bagfiles
+cd ~/bagfiles
+rosbag record -a  # record all topics
+rosbag record [TOPIC1 TOPIC2 TOPIC3 ...]
+rosbag record -O subset /turtle1/cmd_vel /turtle1/pose  # record selected topics
+
+rosbag play
+rosbag info
+```
+All rosbag link[http://wiki.ros.org/rosbag/Tutorials]
+
+```bash
+
+```
