@@ -375,6 +375,12 @@ VScode import unresolved, but can be interpreted.
 -----
 <https://github.com/microsoft/pylance-release/blob/main/TROUBLESHOOTING.md#unresolved-import-warnings>
 
+Poetry
+=====
+
+
+
+
 Conda
 =====
 ```shell
@@ -600,3 +606,23 @@ All rosbag link[http://wiki.ros.org/rosbag/Tutorials]
 ```bash
 
 ```
+
+Ros_numpy
+=====
+The `ros_numpy` in ROS-noetic is too old to match the new Python and Numpy 
+
+Q1. AttributeError: module 'numpy' has no attribute 'float'
+---
+```python
+try: 
+    import ros_numpy
+except AttributeError:
+    import numpy as np
+    np.float = np.float64  # temp fix for following import
+    import ros_numpy
+```
+
+Q2. AttributeError: module 'collections' has no attribute 'Sequence'
+---
+go to ros_numpy and replace `collections` with `collections.abc`
+
