@@ -36,7 +36,7 @@ Ubuntu version cheatsheet
 -----
 | Lunar Lobster: 23 | Jammy Jellyfish 22 | Focal Fossa 20 | Bionic Beaver 18 | Xenial Xerus 16 | Trusty Tahr 14 |
 
-Ubuntu bash
+Ubuntu Terminal Bash
 =====
 Unzip
 -----
@@ -138,6 +138,11 @@ Delete file/folder
 rm filename
 rm -r foldername
 ```
+
+Search history commands
+---
+control + R
+
 
 System Version
 =====
