@@ -585,7 +585,7 @@ mkdir ~/bagfiles
 cd ~/bagfiles
 rosbag record -a  # record all topics
 rosbag record [TOPIC1 TOPIC2 TOPIC3 ...]
-rosbag record -O subset /turtle1/cmd_vel /turtle1/pose  # record selected topics
+rosbag record -O <name> /turtle1/cmd_vel /turtle1/pose --duration 1m # record selected topics for 1 minute into name.bag
 
 rosbag play
 rosbag info
