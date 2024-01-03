@@ -326,6 +326,27 @@ np.concatenate((A,B),axis=0)
 ```
 connect Matrix A and B
 
+```python
+import numpy as np
+a = np.random.random(3)
+print('before set precision: \n',a)
+
+np.set_printoptions(precision=3, suppress=True)
+print('after set precision: \n',a)
+
+np.set_printoptions(formatter={'float': '{: 0.3f}'.format})
+print('after set formatter: \n',a
+
+# output
+# before set options: 
+# [ 0.05856348 0.5400039 0.70000603]
+# after set precision: 
+# [ 0.059 0.54 0.7]
+# after set formatter: 
+# [ 0.059 0.540 0.700]
+```
+print with precision and point
+
 tensorflow
 -----
 ```python
