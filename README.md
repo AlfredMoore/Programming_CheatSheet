@@ -647,3 +647,11 @@ Q2. AttributeError: module 'collections' has no attribute 'Sequence'
 ---
 go to ros_numpy and replace `collections` with `collections.abc`
 
+
+C++
+=====
+1. * vs. &
+-----
+```cpp
+TODO
+```
