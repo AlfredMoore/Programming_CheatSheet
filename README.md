@@ -653,10 +653,23 @@ C++
 1. * vs. &
 -----
 ```cpp
-int var1 = 3; // &var1 = address
-int *p; int* p; // int pointer p 
+int var = 3000;
+int *ptr;        // type * to define variable
+int val;
+ptr = &var;      // operator & to get the address 
+val = *ptr;      // operator * to get the value
 
 // Declaration
+void fun1 (int& n1, int& n2)    // type & to define reference. Reference is an alias
+{
+  int temp = n1;                // variable n1 is an alias
+  n1 = n2; n2 = temp;
+}
 
+void fun2 (int* n1, int* n2)    // type * to define pointer
+{
+  int temp = *n1;               // operator * to get the value
+  *n1 = *n2; *n2 = temp;
+}
 
 ```
