@@ -660,7 +660,7 @@ ptr = &var;      // operator & to get the address
 val = *ptr;      // operator * to get the value
 
 // Declaration
-void fun1 (int& n1, int& n2)    // type & to define reference. Reference is an alias
+void fun1 (int& n1, int& n2)    // type & to define reference. Reference is an alias. We use this to direct modify the arguement from upper function
 {
   int temp = n1;                // variable n1 is an alias
   n1 = n2; n2 = temp;
