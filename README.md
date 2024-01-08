@@ -653,5 +653,10 @@ C++
 1. * vs. &
 -----
 ```cpp
-TODO
+int var1 = 3; // &var1 = address
+int *p; int* p; // int pointer p 
+
+// Declaration
+
+
 ```
