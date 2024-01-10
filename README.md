@@ -347,6 +347,15 @@ print('after set formatter: \n',a
 ```
 print with precision and point
 
+```python
+a = np.random.random((3,4))
+b = a >= 0.5
+print(a[b[:,0], : ])    # b[:,0] is a vector (3,), it works
+print(a[b[:,0:1],:])    # b[:,0:1] is a matrix (3,1), it fails
+# when b[:,0] is all False, result will be []
+```
+slides and index
+
 tensorflow
 -----
 ```python
