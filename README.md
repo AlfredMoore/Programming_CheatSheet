@@ -233,7 +233,6 @@ list(set(A)-set(B))
 ```
 unduplicate list A - unduplicate list B
 
-
 ```python
 from multiprocessing import Pool
 from itertools import repeat
@@ -254,6 +253,14 @@ indicate data type
 
 ```python
 def function(param_a: str, param_b: np.array) -> dict
+```
+list
+-----
+```python
+a = list()
+a.append(element)          # add single element to the end
+a.extend(iterable)         # add iterable(multi elements) to the end
+a.insert(index, element)   # add single element to the specified position
 ```
 
 dict
