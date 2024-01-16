@@ -233,6 +233,14 @@ indicate data type
 def function(param_a: str, param_b: np.array) -> dict
 ```
 
+dict
+-----
+```python
+value = my_dict.setdefault('c', 3)
+```
+if my_dict['c'] exists, get its value. If not, set it as 3.
+
+
 *args and **kargs
 -----
 ```python
@@ -295,6 +303,13 @@ Where, desc('str'): prefix description of the bar, mininterval/maxinterval(float
 tqdm.write()
 ```
 display string above the bar.
+
+assert
+-----
+```python
+assert a == 9 , 'a must be 9'
+```
+if a != 9 then assert error of 'a must be 9'  
 
 Python x Bash
 -----
