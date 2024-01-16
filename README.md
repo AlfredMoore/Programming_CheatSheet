@@ -150,6 +150,22 @@ Search history commands
 ---
 control + R
 
+git
+=====
+```bash
+git init
+vim .gitignore    # create a file to avoid adding certain files into repo
+git add -A        # or git add .
+git commit -m "comment"
+git remote add origin <url>
+git push -u origin master     # or origin main
+```
+convert a existing folder to a local repository
+
+```bash
+
+```
+
 
 System Version
 =====
