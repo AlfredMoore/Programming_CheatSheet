@@ -38,6 +38,13 @@ Ubuntu version cheatsheet
 
 Ubuntu Terminal Bash
 =====
+ls
+-----
+```bash
+ls -a
+```
+list all files (inclduing hidden ones)
+
 Unzip
 -----
 ```bash
