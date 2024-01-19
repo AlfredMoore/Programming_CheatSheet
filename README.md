@@ -452,13 +452,17 @@ VScode import unresolved, but can be interpreted.
 
 Poetry
 =====
-
+```bash
+poetry init
+poetry install
+poetry shell
+```
 
 
 
 Conda
 =====
-```shell
+```bash
 conda info
 conda info -e
 # sudo chmod 600 PATH
@@ -671,7 +675,6 @@ mkdir ~/bagfiles
 cd ~/bagfiles
 rosbag record -a  # record all topics
 rosbag record [TOPIC1 TOPIC2 TOPIC3 ...]
-rosbag record -O <name> /turtle1/cmd_vel /turtle1/pose --duration 1m # record selected topics for 1 minute into name.bag
 
 rosbag play
 rosbag info
@@ -679,8 +682,13 @@ rosbag info
 All rosbag link[http://wiki.ros.org/rosbag/Tutorials]
 
 ```bash
-
+# run and record
+roscore
+roslaunch 
+rosbag record -O <output_name> /turtle1/cmd_vel /turtle1/pose --duration 1m # record selected topics for 1 minute into name.bag
+roslaunch realsense2_camera rs_camera.launch align_depth:=true
 ```
+run ros script and record topics
 
 Ros_numpy
 =====
