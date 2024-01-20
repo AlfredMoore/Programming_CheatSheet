@@ -496,6 +496,12 @@ Host Alias/Abbreviation
   Port 22
   IdentityFile <C:\Users\username\.ssh\xxx.pem>
 ```
+```bash
+scp ./filename username@ip-address:~/path/to/put/it/           # upload to robot
+scp username@ip-address:/path/to/filename ~/path/to/put/it/    # download from robot
+```
+Upload or Download files
+
 Google Cloud Computing
 -----
 ```bash
