@@ -150,6 +150,18 @@ Search history commands
 ---
 control + R
 
+Shutdown
+---
+```bash
+
+```
+
+Processes
+---
+```bash
+ps aux
+```
+
 git
 =====
 ```bash
