@@ -334,6 +334,12 @@ class A (B):
 tqdm()
 -----
 ```python
+from tqdm import tqdm
+for iter in tqdm(iterative)
+```
+as wrapper
+
+```python
 # Template
 with tqdm(total=args.max_train_steps, desc='PPO Trainning', leave=True, ncols=80, unit='steps', unit_scale=True, colour="red") as pbar:
   Iteration
@@ -351,9 +357,9 @@ assert
 ```python
 assert a == 9 , 'a must be 9'
 ```
-if a != 9 then assert error of 'a must be 9'  
+if a != 9 then assert exception of 'a must be 9'  
 
-Python x Bash
+os
 -----
 ```python
 # os.system()
@@ -370,6 +376,17 @@ result = os.popen(cmd)
 ip_addr = result.readlines()[0].replace(' ','').replace('\n','')
 print(ip_addr)
 ```
+
+```python
+files = os.listdir(directory_path)    # equal to bash ls
+
+```
+
+re
+-----
+regular expression
+
+
 numpy
 -----
 ```python
