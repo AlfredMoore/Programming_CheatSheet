@@ -467,6 +467,27 @@ ax.legend()
 plt.show()
 ```
 
+```python
+
+```
+Subplots and title
+
+```python
+fig = plt.figure(figsize=(10,10))                  # figure size
+ax1 = fig.add_subplot(2,2,1, projection='3d')      # subplot
+# other subplot ...
+ax1.axes.set_zlim3d(1,4)                           # axis limit
+ax1.set_zlabel('Depth-axis')                       # axis label
+# other axis ...
+ax1.view_init(elev=-60, azim=-90)                  # veiw position
+ax1.set_title('Front View', fontstyle='italic')    # subplot title
+ax1.legend()
+# other axis ...
+sc1 = ax1.scatter(0, 0, 0, color='r', label='Kalman + Inlier')                                   # scatter init with color and label
+sc1._offsets3d = (-scatter_mat_Kalman[:,0], scatter_mat_Kalman[:,1], scatter_mat_Kalman[:,2])    # scatter update in for loop, ._offsets3d is the inner attribute not the method
+```
+dynamic scatter
+
 Python Virtual Env
 =====
 ```shell
