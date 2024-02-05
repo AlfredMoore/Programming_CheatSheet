@@ -182,9 +182,7 @@ git push -u origin master     # or origin main
 ```
 convert a existing folder to a local repository
 
-```bash
-
-```
+[Useful cheatsheet in Chinese](https://zhuanlan.zhihu.com/p/681307343)
 
 
 System Version
