@@ -288,6 +288,12 @@ value = my_dict.setdefault('c', 3)
 ```
 if my_dict['c'] exists, get its value. If not, set it as 3.
 
+tuple
+-----
+```python
+(1,2,3) + (3,4,5) = (1,2,3,3,4,5)
+```
+tuples can add but their elements are unchangable.
 
 *args and **kargs
 -----
