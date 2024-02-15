@@ -188,11 +188,11 @@ convert a existing folder to a local repository
 System Version
 =====
 ```bash
-cat /etc/issue
-cat /etc/os-release
-hostnamectl
-uname -a
-cat /etc/debian_version
+cat /etc/issue                  # Ubuntu 20.04.6 LTS \n \l
+cat /etc/os-release             # NAME="Ubuntu" VERSION="20.04.6 LTS (Focal Fossa)" ...
+hostnamectl                     # Static Machine ID Operating System Kernel Architecture
+uname -a                        # Linux xxx 5.15.0-88-generic
+cat /etc/debian_version         # bullseye/sid
 ```
 
 Goole Colab
