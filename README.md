@@ -153,7 +153,7 @@ control + R
 Shutdown
 ---
 ```bash
-
+sudo shutdown now
 ```
 
 Processes
@@ -169,6 +169,11 @@ touch file_{1...10}  # create files in batch
 touch -t <timestamp> <filename>  # set timestamp[[CC]YY]MMDDhhmm[.ss] or string(tomorrow | 19 August 2020 | Sunday)
 ```
 
+Systemctl
+-----
+```bash
+sudo systemctl start/status/restart service
+```
 
 git
 =====
