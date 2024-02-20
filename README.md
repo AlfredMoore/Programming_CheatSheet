@@ -614,7 +614,78 @@ conda config --set show_channel_urls yes
 conda config --remove-key channels
 ```
 
-ROS
+ROS2 Humble
+=====
+```bash
+source /opt/ros/humble/setup.bash
+echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc    # add source to .bashrc
+```
+
+Ros2 run
+---
+```bash
+ros2 run <package_name> <executable_name>    # ros2 run turtlesim turtlesim_node
+```
+ros2 node
+---
+```bash
+ros2 node list
+ros2 node info <node_name>
+ros2 param list                  # show parameters in node namespaces
+ros2 param get <node_name> <parameter_name>
+ros2 param set <node_name> <parameter_name> <value>
+ros2 param dump <node_name> > node_param.yaml      # View all of a node’s current parameter values and save to file
+ros2 param load <node_name> <parameter_file>       # load param from file
+ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
+```
+ros2 topic
+---
+```bash
+ros2 topic echo <topic_name>      # To see the data being published on a topic
+ros2 topic info <topic_name>      # Type, Publisher/Subscriber count
+ros2 interface show <msg type>    # to learn Type details
+ros2 topic pub <topic_name> <msg_type> '<args>'    # ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+```
+ros2 service
+---
+```bash
+ros2 service list -t                # -t=--show-types, show services and their types
+ros2 service type <service_name>    # To find out the type of a service, service type like "std_srvs/srv/Empty
+ros2 service find <type_name>       # To see the request and response arguments of the service type
+ros2 service call <service_name> <service_type> <arguments>
+```
+ros2 launch
+---
+```bash
+ros2 launch turtlesim multisim.launch.py
+```
+But ROS 2 launch formats in Using Python, XML, and YAML for ROS 2 Launch Files.
+```python
+# turtlesim/launch/multisim.launch.py
+
+from launch import LaunchDescription
+import launch_ros.actions
+
+def generate_launch_description():
+    return LaunchDescription([
+        launch_ros.actions.Node(
+            namespace= "turtlesim1", package='turtlesim', executable='turtlesim_node', output='screen'),
+        launch_ros.actions.Node(
+            namespace= "turtlesim2", package='turtlesim', executable='turtlesim_node', output='screen'),
+    ])
+```
+ros2 bag
+---
+```bash
+ros2 bag record <topic_name>
+ros2 bag record -o subset /turtle1/cmd_vel /turtle1/pose  # -o indicates the save bagfile
+ros2 bag info <bag_file_name>
+ros2 bag play <bag_file_name>
+ros2 topic hz /turtle1/pose        # topic frequency
+```
+
+
+ROS1 Noetic
 =====
 * Nodes: A node is an executable that uses ROS to communicate with other nodes.
 * Messages: ROS data type used when subscribing or publishing to a topic.
