@@ -683,6 +683,13 @@ ros2 bag info <bag_file_name>
 ros2 bag play <bag_file_name>
 ros2 topic hz /turtle1/pose        # topic frequency
 ```
+colcon build
+---
+Different from catkin build, the ROS2 use colcon build
+```bash
+colcon build --symlink-install     # colcon supports the option --symlink-install. This allows the installed files to be changed by changing the files in the source space 
+```
+
 
 
 ROS1 Noetic
