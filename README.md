@@ -31,6 +31,9 @@ Greek Alphabet
 | &Chi; | &chi; |   chi | Χ |                                                                       
 | &Psi; | &psi; |   psi | Ψ |                                                                       
 | &Omega; | &omega; |   omega | Ω |                                                                         
+VS Code shortcut
+-----
+`ctrl`+`shift`+space`    show function help
 
 Ubuntu version cheatsheet
 -----
@@ -689,6 +692,12 @@ Different from catkin build, the ROS2 use colcon build
 ```bash
 colcon build --symlink-install     # colcon supports the option --symlink-install. This allows the installed files to be changed by changing the files in the source space 
 ```
+package
+---
+* `CMakeLists.txt` file that describes how to build the code within the package
+* `include/<package_name>` directory containing the public headers for the package
+* `package.xml` file containing meta information about the package
+* `src` directory containing the source code for the package
 
 
 
