@@ -30,7 +30,8 @@ Greek Alphabet
 | &Phi; | &phi; |   phi | Φ |                                                                       
 | &Chi; | &chi; |   chi | Χ |                                                                       
 | &Psi; | &psi; |   psi | Ψ |                                                                       
-| &Omega; | &omega; |   omega | Ω |                                                                         
+| &Omega; | &omega; |   omega | Ω |                                                                        
+
 VS Code shortcut
 -----
 `ctrl`+`shift`+space`    show function help
