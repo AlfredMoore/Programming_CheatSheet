@@ -41,6 +41,7 @@ markers:
 * Parentheses or round brackets: `( )`
 * Curly or brace brackets: `{ }`
 * Square or box brackets: `[ ]`
+* Angle brackets: `< >`
 * Single or double quotation: `"" ''`
 * Tilde: `~`
 
