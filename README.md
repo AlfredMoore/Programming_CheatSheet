@@ -32,6 +32,18 @@ Greek Alphabet
 | &Psi; | &psi; |   psi | Ψ |                                                                       
 | &Omega; | &omega; |   omega | Ω |                                                                        
 
+markers:
+-----
+* interrogation mark: `?`
+* sharp: `#`
+* dash: `-`
+* (forward)slash: `/`, back slash: `\`
+* Parentheses or round brackets: `( )`
+* Curly or brace brackets: `{ }`
+* Square or box brackets: `[ ]`
+* Single or double quotation: `"" ''`
+* Tilde: `~`
+
 VS Code shortcut
 -----
 `ctrl`+`shift`+space`    show function help
