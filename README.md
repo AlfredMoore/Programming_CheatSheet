@@ -35,6 +35,7 @@ Greek Alphabet
 markers:
 -----
 * interrogation mark: `?`
+* colon: `:`
 * sharp: `#`
 * dash: `-`
 * (forward)slash: `/`, back slash: `\`
@@ -44,10 +45,13 @@ markers:
 * Angle brackets: `< >`
 * Single or double quotation: `"" ''`
 * Tilde: `~`
+* Indentation: `\t`
 
 VS Code shortcut
 -----
-`ctrl`+`shift`+space`    show function help
+* `ctrl`+`shift`+`space`    show function help
+* `ctrl`+`enter`            insert a new line below
+* `ctrl`+`shift`+`enter`    insert a new line above
 
 Ubuntu version cheatsheet
 -----
