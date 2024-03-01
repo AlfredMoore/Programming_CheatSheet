@@ -717,7 +717,10 @@ package
 * `package.xml` file containing meta information about the package
 * `src` directory containing the source code for the package
 
-
+ROS2 XML
+---
+* Substitution Attribute: `${}`
+* Substitution Function: `$()`
 
 ROS1 Noetic
 =====
