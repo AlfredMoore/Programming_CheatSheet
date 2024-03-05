@@ -544,6 +544,8 @@ Poetry
 poetry init
 poetry install
 poetry shell
+poetry add <dependency>
+poetry lock                # update poetry.lock
 ```
 
 
