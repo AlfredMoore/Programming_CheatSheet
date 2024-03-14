@@ -428,6 +428,13 @@ regular expression
 numpy
 -----
 ```python
+a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+# a[0] return np.ndarray [1,2,3], shape=(3,)
+# a[0:1] return np.ndarray [[1,2,3]], shape=(1,3)
+```
+Slice to array or vector
+
+```python
 np.tile( A,(2,2) )
 # A -> [A A]
 #      [A A]
