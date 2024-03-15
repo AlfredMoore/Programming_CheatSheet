@@ -211,6 +211,11 @@ convert a existing folder to a local repository
 [Useful cheatsheet in Chinese](https://zhuanlan.zhihu.com/p/681307343)
 
 
+```bash
+
+```
+switch to a remote branch
+
 System Version
 =====
 ```bash
@@ -419,6 +424,14 @@ print(ip_addr)
 files = os.listdir(directory_path)    # equal to bash ls
 
 ```
+
+sys
+-----
+```python
+import sys
+sys.executable
+```
+get the current python interpretor path
 
 re
 -----
@@ -649,6 +662,8 @@ ROS2 Humble
 ```bash
 source /opt/ros/humble/setup.bash
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc    # add source to .bashrc
+
+ros2 pkg create --build-type ament_cmake --license Apache-2.0 <package_name>    # create a package
 ```
 
 Ros2 run
