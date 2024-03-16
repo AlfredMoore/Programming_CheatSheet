@@ -196,6 +196,12 @@ Systemctl
 sudo systemctl start/status/restart service
 ```
 
+chmod
+-----
+```bash
+chmod +x filename.sh    # make a file executable
+```
+
 git
 =====
 ```bash
