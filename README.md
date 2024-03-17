@@ -59,6 +59,11 @@ Ubuntu version cheatsheet
 
 Ubuntu Terminal Bash
 =====
+Definition
+-----
+ * PATH: system package search path.
+ * PYTHONPATH: python package search path.
+
 ls
 -----
 ```bash
