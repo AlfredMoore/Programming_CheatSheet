@@ -428,7 +428,6 @@ print(ip_addr)
 
 ```python
 files = os.listdir(directory_path)    # equal to bash ls
-
 ```
 
 sys
@@ -438,6 +437,11 @@ import sys
 sys.executable
 ```
 get the current python interpretor path
+
+```python
+sys.path.append(parent_dir)
+```
+add a path for python module search, equal to `export PYTHONPATH=$PYTHONPATH:/path/to/dir`
 
 re
 -----
