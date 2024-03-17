@@ -202,6 +202,12 @@ chmod
 chmod +x filename.sh    # make a file executable
 ```
 
+which
+---
+```bash
+which python    # return python interpretor path
+```
+
 git
 =====
 ```bash
