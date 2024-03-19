@@ -512,6 +512,10 @@ slides and index
 tensorflow
 -----
 ```python
+# tf.where mode1: return the indexes of non-zero elements
+tf.where()
+
+# tf.where mode2:
 tf.where([True, False, False, True],          # Bool
 ...          [1, 2, 3, 4],                    # values replace True
 ...          [100, 200, 300, 400]).numpy()    # values replace False
