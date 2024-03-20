@@ -229,7 +229,7 @@ convert a existing folder to a local repository
 
 
 ```bash
-
+git clone -b <url>   # direct clone the specific branch
 ```
 switch to a remote branch
 
