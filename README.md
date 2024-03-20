@@ -540,6 +540,15 @@ tensor tools
 EinSum
 [https://rockt.github.io/2018/04/30/einsum]
 
+```python
+data_batch = dataset.batch(1)    # divide the dataset into batches of size 1
+data_iter = iter(data_batch)     # returns an iterator from an iterable object
+data_next = next(data_iter)      # returns the next item from the iterator. Here it fetches the very first iteration
+data_infer = model(data_next)    # infer with the model
+
+_, _ = model(next(iter(dataset.batch(1))), training=False)   # used to initialized the model inference with the firt iter
+```
+
 matplotlib
 -----
 ```python
@@ -549,6 +558,11 @@ ax.scatter(x, y, label='Observation', color='blue', marker='x')
 ax.legend()
 plt.show()
 ```
+
+plt.show() will display the current figure that you are working on.
+
+plt.draw() will re-draw the figure. This allows you to work in interactive mode and, should you have changed your data or formatting, allow the graph itself to change.
+
 
 ```python
 
