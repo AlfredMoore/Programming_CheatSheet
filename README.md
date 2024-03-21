@@ -292,7 +292,7 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 # trusted-host=mirrors.aliyun.com
 ```
 
-Python
+Python Tricks
 =====
 ```python
 list(set(A)-set(B))
@@ -458,6 +458,11 @@ re
 -----
 regular expression
 
+dir
+-----
+The dir() function returns all properties and methods of the specified object, without the values.
+
+but firstly returns the `__dir__` if the target has
 
 numpy
 -----
