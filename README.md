@@ -514,6 +514,13 @@ print(a[b[:,0:1],:])    # b[:,0:1] is a matrix (3,1), it fails
 ```
 slides and index
 
+opencv
+-----
+#### BGR vs RGB: 
+OpenCV `imread`, `imwrite` and `imshow` indeed all work with the BGR order, so there is no need to change the order when you read an image with `cv2.imread` and then want to show it with `cv2.imshow`.
+
+While BGR is used consistently throughout OpenCV, most other image processing libraries use the RGB ordering. If you want to use `matplotlib`'s `imshow` but read the image with OpenCV, you would need to convert from BGR to RGB.
+
 tensorflow
 -----
 ```python
