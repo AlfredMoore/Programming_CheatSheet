@@ -516,10 +516,17 @@ slides and index
 
 opencv
 -----
+#### about mat:
+opencv uses numpy as data framework or discriber.
+
 #### BGR vs RGB: 
 OpenCV `imread`, `imwrite` and `imshow` indeed all work with the BGR order, so there is no need to change the order when you read an image with `cv2.imread` and then want to show it with `cv2.imshow`.
 
 While BGR is used consistently throughout OpenCV, most other image processing libraries use the RGB ordering. If you want to use `matplotlib`'s `imshow` but read the image with OpenCV, you would need to convert from BGR to RGB.
+```python
+cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+```
+convert img in opencv from bgr to rgb.
 
 tensorflow
 -----
