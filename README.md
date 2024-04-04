@@ -221,7 +221,7 @@ vim .gitignore    # create a file to avoid adding certain files into repo
 git add -A        # or git add .
 git commit -m "comment"
 git remote add origin <url>
-git push -u origin master     # or origin main
+git push -u origin master     # or origin main, -u means tracking and creating remote branch if non-existing
 ```
 convert a existing folder to a local repository
 
@@ -230,6 +230,7 @@ convert a existing folder to a local repository
 
 ```bash
 git clone -b <url>   # direct clone the specific branch
+git push origin local_branch:remote_branch
 ```
 switch to a remote branch
 
