@@ -59,6 +59,12 @@ Ubuntu version cheatsheet
 
 Ubuntu Terminal Bash
 =====
+Shortcuts
+-----
+* Ctrl+U: clear up to the beginning.
+* Ctrl+W: delete just a word.
+* Ctrl+C: cancel.
+
 Definition
 -----
  * PATH: system package search path.
