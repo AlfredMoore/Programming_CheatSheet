@@ -61,9 +61,11 @@ Ubuntu Terminal Bash
 =====
 Shortcuts
 -----
-* Ctrl+U: clear up to the beginning.
-* Ctrl+W: delete just a word.
-* Ctrl+C: cancel.
+* Ctrl+U: clear up to the beginning
+* Ctrl+W: delete just a word
+* Ctrl+C: cancel
+* Ctrl+A: Go to beginning of the line
+* Ctrl+E: Go to end of the line 
 
 Definition
 -----
