@@ -540,6 +540,13 @@ convert img in opencv from bgr to rgb.
 tensorflow
 -----
 ```python
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+```
+check GPU condition
+
+loc: location parameter, in most cases is 'Mean'
+
+```python
 # tf.where mode1: return the indexes of non-zero elements
 tf.where()
 
