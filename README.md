@@ -250,6 +250,7 @@ cat /etc/os-release             # NAME="Ubuntu" VERSION="20.04.6 LTS (Focal Foss
 hostnamectl                     # Static Machine ID Operating System Kernel Architecture
 uname -a                        # Linux xxx 5.15.0-88-generic
 cat /etc/debian_version         # bullseye/sid
+lsb_release -a                  # No LSB modules are available. Distributor ID:	Ubuntu Description:	Ubuntu 22.04.4 LTS Release:	22.04 Codename:	jammy
 ```
 
 Goole Colab
