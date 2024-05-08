@@ -221,6 +221,12 @@ which
 which python    # return python interpretor path
 ```
 
+realpath
+---
+```bash
+realpath relative/path    # return the absolute path
+```
+
 git
 =====
 ```bash
