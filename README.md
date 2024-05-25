@@ -238,7 +238,11 @@ git remote add origin <url>
 git push -u origin master     # or origin main, -u means tracking and creating remote branch if non-existing
 ```
 convert a existing folder to a local repository
-
+```bash
+git remote add origin <git_url>
+git branch -M main
+git push -u origin main
+```
 [Useful cheatsheet in Chinese](https://zhuanlan.zhihu.com/p/681307343)
 
 
