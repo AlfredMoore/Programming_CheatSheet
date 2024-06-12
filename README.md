@@ -1025,3 +1025,9 @@ void fun2 (int* n1, int* n2)    // type * to define pointer
 }
 
 ```
+
+zsh
+=====
+oh my zsh
+-----
+zsh-completions: best auto completion plugin
