@@ -61,11 +61,13 @@ Ubuntu Terminal Bash
 =====
 Shortcuts
 -----
-* Ctrl+U: clear up to the beginning
+* Ctrl+L: clear up to the beginning
 * Ctrl+W: delete just a word
 * Ctrl+C: cancel
 * Ctrl+A: Go to beginning of the line
-* Ctrl+E: Go to end of the line 
+* Ctrl+E: Go to end of the line
+* Ctrl+D：Stop current work(loop)
+* Ctrl+Q: clear current cli input
 
 Definition
 -----
@@ -254,6 +256,13 @@ switch to a remote branch
 
 use git in a docker and get errors
 https://github.com/microsoft/vscode-remote-release/issues/2441
+
+vim
+=====
+```bash
+dd     # delete whole line
+u :u   # undo
+```
 
 System Version
 =====
