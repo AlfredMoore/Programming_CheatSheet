@@ -252,6 +252,9 @@ git push origin local_branch:remote_branch
 ```
 switch to a remote branch
 
+use git in a docker and get errors
+https://github.com/microsoft/vscode-remote-release/issues/2441
+
 System Version
 =====
 ```bash
