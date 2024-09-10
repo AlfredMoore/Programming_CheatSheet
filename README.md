@@ -231,6 +231,9 @@ realpath relative/path    # return the absolute path
 
 git
 =====
+Thanks to the cheat sheet from [hbons](https://github.com/hbons/git-cheat-sheet/tree/master)
+![Git Cheat Sheet](https://raw.githubusercontent.com/AlfredMoore/Programming_CheatSheet/main/preview.png)
+
 ```bash
 git init
 vim .gitignore    # create a file to avoid adding certain files into repo
