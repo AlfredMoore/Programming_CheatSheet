@@ -234,6 +234,9 @@ git
 Thanks to the cheat sheet from [hbons](https://github.com/hbons/git-cheat-sheet/tree/master)
 ![Git Cheat Sheet](https://raw.githubusercontent.com/AlfredMoore/Programming_CheatSheet/main/preview.png)
 
+Thanks to the workflow from [jdsalaro](https://jdsalaro.com/cheatsheet/git/index.html)
+![Git Workflow](https://raw.githubusercontent.com/AlfredMoore/Programming_CheatSheet/main/gittimeworkflow.png)
+
 ```bash
 git init
 vim .gitignore    # create a file to avoid adding certain files into repo
