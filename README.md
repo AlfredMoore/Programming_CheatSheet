@@ -245,6 +245,8 @@ Dual Ubuntu Installation
    - `vim /etc/default/grub`
    - set `GRUB_DEFAULT=saved` and `GRUB_SAVEDEFAULT=true`
    - `sudo update-grub`
+ - Fix time difference between Win and Linux in [link](https://itsfoss.com/wrong-time-dual-boot/)
+
 
 git
 =====
