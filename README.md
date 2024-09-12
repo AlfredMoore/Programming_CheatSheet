@@ -229,6 +229,16 @@ realpath
 realpath relative/path    # return the absolute path
 ```
 
+Dual Ubuntu Installation
+=====
+ - Download Ubuntu 22.04, because Ubuntu 20.04 has lots of questions from my experiences
+ - Use Rufus to create a USB medium installer, with GTP partition and NTFS format
+ - Go to UEFI/BIOS and start from USB
+ - install Ubuntu with three partitions
+   - EFI 500MB Primary Partition
+   - Swap 2*Memory Size but 32GB usually enough Logical Partition
+   - / just root directory rest of space Ext4 Logical Partition
+
 git
 =====
 Thanks to the cheat sheet from [hbons](https://github.com/hbons/git-cheat-sheet/tree/master)
