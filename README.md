@@ -238,6 +238,13 @@ Dual Ubuntu Installation
    - EFI 500MB Primary Partition
    - Swap 2*Memory Size but 32GB usually enough Logical Partition
    - / just root directory rest of space Ext4 Logical Partition
+ - Install Applications
+   - `sudo apt update`
+   - `sudo apt install build-essential vim`
+ - Grub configuration
+   - `vim /etc/default/grub`
+   - set `GRUB_DEFAULT=saved` and `GRUB_SAVEDEFAULT=true`
+   - `sudo update-grub`
 
 git
 =====
