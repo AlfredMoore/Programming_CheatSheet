@@ -283,7 +283,7 @@ use git in a docker and get errors
 https://github.com/microsoft/vscode-remote-release/issues/2441
 
 [git submodule](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
-
+[git vscode container error](https://github.com/microsoft/vscode-remote-release/issues/2441) like "Error: Cannot find module '/tmp/vscode-remote-containers-*'"
 
 vim
 =====
