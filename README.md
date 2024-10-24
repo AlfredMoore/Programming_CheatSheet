@@ -280,10 +280,11 @@ git push origin local_branch:remote_branch
 switch to a remote branch
 
 use git in a docker and get errors
-https://github.com/microsoft/vscode-remote-release/issues/2441
+[git vscode container error](https://github.com/microsoft/vscode-remote-release/issues/2441) "Error: Cannot find module '/tmp/vscode-remote-containers-*'"
 
 [git submodule](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
-[git vscode container error](https://github.com/microsoft/vscode-remote-release/issues/2441) like "Error: Cannot find module '/tmp/vscode-remote-containers-*'"
+
+
 
 vim
 =====
