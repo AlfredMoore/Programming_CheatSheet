@@ -150,6 +150,25 @@ kill <PID>
 ```
 stop that command
 
+tmux
+-----
+```bash
+tmux new-session -s my_project
+tmux -a
+tmux kill-session -t mysession
+```
+new session, attach and kill session
+
+```bash
+ctrl+b D
+```
+Detach current session, very useful for remote server.
+
+```bash
+ctrl+b [
+```
+Enter copy mode. But it still kind of tricky to use.
+
 diff
 -----
 ```bash
