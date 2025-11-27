@@ -655,6 +655,22 @@ data_infer = model(data_next)    # infer with the model
 _, _ = model(next(iter(dataset.batch(1))), training=False)   # used to initialized the model inference with the firt iter
 ```
 
+tensorboard
+-----
+### Remote tensorboard
+On the remote machine, start TensorBoard on a known port, e.g. 6006:
+```bash
+tensorboard --logdir /path/to/logs --port 6006 --host 0.0.0.0
+```
+On your local machine, create an SSH tunnel:
+```bash
+ssh -L 6006:localhost:6006 username@remote_server
+```
+Then open locally, visit:
+```bash
+http://localhost:6006
+```
+
 matplotlib
 -----
 ```python
