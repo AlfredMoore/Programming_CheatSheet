@@ -1109,3 +1109,7 @@ zsh
 oh my zsh
 -----
 zsh-completions: best auto completion plugin
+
+Conda completion
+-----
+https://github.com/conda-incubator/conda-zsh-completion
